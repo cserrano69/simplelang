@@ -1,0 +1,27 @@
+﻿@{
+    Layout = null;
+}
+
+@using Sesyown.Models;
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <metaname ="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <table border="1" cellpadding="2" cellspacing="2">
+    <tr>
+        <td>@Session["Name"]</td>
+        <td>@Session["MutualFundType"]</td>
+        <td>@Session["Amount"]</td>
+        <td>@Session["NAVPS"]</td>
+        <td>@Session["SalesLoad"]</td>
+        <td>@Session["NetAmount"]</td>
+        <td>@Session["TotalShares"]</td>
+    </tr>
+    </table>
+</body>
+</html>
